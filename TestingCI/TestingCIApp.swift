@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct TestingCIApp: App {
+    var test: String = "hello"
     var body: some Scene {
         WindowGroup {
             ContentView()
